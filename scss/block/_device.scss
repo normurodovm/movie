@@ -1,0 +1,34 @@
+.device{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.device_title{
+    font-weight: 800;
+    font-size: 38px;
+    line-height: 132%;
+    text-align: center;
+    color: #f9f9f9; 
+    margin-bottom: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.device__sub__title{
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 146%;
+    text-align: center;
+    color: #f9f9f9;
+}
+.device__text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #c0c0c0;
+}
+.device__list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+}
